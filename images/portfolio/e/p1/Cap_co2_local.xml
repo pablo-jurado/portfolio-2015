@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<movie title="pantalla1" width="745" height="400" locked="false">
+<help>Película que se utiliza para presentar imagenes y contenidos.</help>
+	<!--Generales-->
+	<param name="texto_titulo" type="text">[b]2. El problema del CO[sti]2[/sti][/b]</param>
+	<param name="texto_subtitulo" type="text">2.3. Emisión de gases</param>	
+	<param name="texto_contenido" type="text">La contribución de los gases al efecto invernadero depende de varios factores:</param>
+	<param name="texto_accion" type="text">[i]Pulse en la tabla y el gráfico respectivamente para interpretarlos.[/i]</param>
+	<param name="imagen_fondo" type="image"></param>
+	<!--Imagen libre-->
+	<param name="cant_imglibre" type="select">1</param>
+	<param name="id_imglibre" type="array">1</param>	
+	<param name="imagen_libre" type="array">Cap_co2_anima_pant4.swf</param>
+	<param name="borde_imglibre" type="array">false</param>
+	<param name="coord_imglibre" type="array">-120,-140</param>
+	<param name="tamano_imglibre" type="array">640,480</param>
+	<param name="visible_imglibre" type="array">true</param>
+	<!--Botones-->
+	<param name="cant_botones" type="select">2</param>
+	<param name="abrir_popup" type="select">1|2</param>
+	<param name="imagen_botones" type="array"></param>
+	<param name="texto_botones" type="array">1|2</param>
+	<!--Texto Libre-->
+	<param name="cant_textlibre" type="select">1|2|3|4</param>	
+	<param name="id_textlibre" type="select">1|2|3|4</param>
+	<param name="texto_libre" type="array">[li]Concentración de los gases.[/li][li]Persistencia o tiempo de vida.[/li][li]Eficacia en la absorción de la radiación.[/li]|El vapor de agua no se considera dentro de los gases de efecto invernadero debido a que el 99.99o/o es de origen natural.</param>
+	<!--Texto Link-->
+	<param name="cant_textlink" type="select"></param>
+	<param name="texto_link" type="array"></param>
+	<param name="coord_textlink" type="array"></param>
+	<param name="textlink_popup" type="array">1|2</param>	
+	<!--Popups-->
+	<param name="cant_popup" type="select">2</param>
+	<param name="id_popup" type="array">1|2</param>	
+	<param name="imagen_popup" type="array"></param>
+	<param name="texto_popup" type="array">En esta tabla puede observar los valores de estos factores para los gases más importantes desde el punto de vista de su contribución.|En este gráfico puede observar los porcentajes de dicha contribución y si se fija el CO[si]2[/si] es el principal responsable del efecto invernadero y consecuentemente del calentamiento global.</param>	
+	<!--texto globo-->
+	<param name="id_txt_over" type="array">1|2|3|4|5</param>	
+	<param name="texto_over" type="array"></param>	
+	<!--Globos de texto-->
+	<param name="cant_globos" type="select">1</param>	
+	<param name="texto_globos" type="array"></param>	
+</movie>

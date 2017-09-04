@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<movie title="pantalla1" width="745" height="400" locked="false">
+<help>Película que se utiliza para presentar imagenes y contenidos.</help>
+	<!--Generales-->
+	<param name="texto_titulo" type="text">[b]2. El problema del CO[sti]2[/sti][/b]</param>
+	<param name="texto_subtitulo" type="text">2.2. El balance energético de la Tierra.</param>	
+	<param name="texto_contenido" type="text">¿Quiere comprobar el balance energético del planeta Tierra?</param>
+	<param name="texto_accion" type="text">[i]Pase el ratón por encima del texto para ver en qué consiste.[/i]</param>
+	<param name="imagen_fondo" type="image"></param>
+	<!--Imagen libre-->
+	<param name="cant_imglibre" type="select"></param>
+	<param name="id_imglibre" type="array"></param>	
+	<param name="imagen_libre" type="array"></param>
+	<param name="borde_imglibre" type="array">false</param>
+	<param name="coord_imglibre" type="array">-120,-140</param>
+	<param name="tamano_imglibre" type="array">640,480</param>
+	<param name="visible_imglibre" type="array">true</param>
+	<!--Botones-->
+	<param name="cant_botones" type="select">7</param>
+	<param name="abrir_popup" type="select">1|2</param>
+	<param name="imagen_botones" type="array"></param>
+	<param name="texto_botones" type="array">1|2</param>
+	<!--Texto Libre-->
+	<param name="cant_textlibre" type="select">1|2|3|4|5|6|7</param>	
+	<param name="id_textlibre" type="select">1|2|3|4|5|6|7</param>
+	<param name="texto_libre" type="array">La Tierra recibe del Sol una radiación de 343 W/m[spi]2[/spi], que se conoce como constante solar media. 
+|Alrededor del 30o/o de la radiación recibida (103 W/m[spi]2[/spi]), es devuelta al espacio debido a la reflexión de la Tierra. 
+|Por ello, el 70o/o de la energía que llega (240 W/m[spi]2[/spi]) es absorbida por la superficie terrestre. 
+|El tipo de radiación que emite un cuerpo depende de la temperatura a la que se encuentre. La temperatura media de la tierra es de 15ºC y la emisión correspondiente a esta temperatura es de 390 W/m[spi]2[/spi]. 
+|La diferencia entre los 390 y los 240 W/m[spi]2[/spi], son los 150 W/m[spi]2[/spi] que son atrapados por las nubes y los gases con efecto invernadero. Por ese motivo, cuando se produce un aumento de concentración de estos gases, aumenta la radiación infrarroja absorbida y se produce el calentamiento global terrestre. 
+|El calentamiento global está contribuyendo en los últimos años al fenómeno conocido como [b][u]cambio climático. [/u][/b]
+|[b]1º[/b] radiación constante solar media
+|[b]2º[/b] 30o/o radiación devuelta al espacio
+|[b]3º[/b] 70o/o radiación absorbida por la superficie terrestre
+|[b]4º[/b] temperatura media de la tierra 15ºC. Emisión correspondiente 390W/m[spi]2[/spi]
+|[b]5º[/b] Diferencia de 150 W/m[spi]2[/spi]  atrapados por las nubes y los gases con efecto invernadero que producen el calentamiento global terrestre</param>
+	<!--Texto Link-->
+	<param name="cant_textlink" type="select"></param>
+	<param name="texto_link" type="array"></param>
+	<param name="coord_textlink" type="array"></param>
+	<param name="textlink_popup" type="array">1|2</param>	
+	<!--Popups-->
+	<param name="cant_popup" type="select">2</param>
+	<param name="id_popup" type="array">1|2</param>	
+	<param name="imagen_popup" type="array"></param>
+	<param name="texto_popup" type="array">En esta tabla puede observar los valores de estos factores para los gases más importantes desde el punto de vista de su contribución.|En este gráfico puede observar los porcentajes de dicha contribución y si se fija el CO2 es el principal responsable del efecto invernadero y consecuentemente del calentamiento global.</param>	
+	<!--texto globo-->
+	<param name="id_txt_over" type="array">1|2|3|4|5</param>	
+	<param name="texto_over" type="array">Alteración de las temperaturas y lluvias que provoca la desertización. Aumento del nivel del mar e inundaciones debido al deshielo de los casquetes polares.</param>	
+	<!--Globos de texto-->
+	<param name="cant_globos" type="select">1</param>	
+	<param name="texto_globos" type="array"></param>	
+</movie>
